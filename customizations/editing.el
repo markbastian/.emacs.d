@@ -71,3 +71,6 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
+;; https://github.com/emacsmirror/expand-region
+(global-set-key (kbd "C-=") 'er/expand-region)

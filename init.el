@@ -77,6 +77,10 @@
     ;; refactorings
     clj-refactor
 
+    ;; smart expand regions
+    ;; https://github.com/emacsmirror/expand-region
+    expand-region
+    
     ;; Cool mode suggested by the cider guy
     which-key))
 

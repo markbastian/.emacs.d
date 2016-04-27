@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- cljr-rename-symbol
- clj-refactor-mode
+ er/expand-region
+ expand-region-abbrevs
  projectile-find-dir
  projectile-find-file
+ cljr-rename-symbol
+ clj-refactor-mode
  cider-apropos-select
- comment-region
- expand-region-abbrevs
 )
 
 ;; ----- smex-data -----
@@ -18,8 +18,8 @@
  (package-refresh-contents . 1)
  (paredit-mode . 4)
  (projectile-global-mode . 2)
- (projectile-find-file . 10)
- (projectile-find-dir . 8)
+ (projectile-find-file . 12)
+ (projectile-find-dir . 10)
  (rgrep . 10)
  (auto-composition-mode . 2)
  (cider-mode . 7)
@@ -41,7 +41,8 @@
  (new-frame . 1)
  (clj-refactor-mode . 4)
  (cljr-rename-symbol . 3)
- (expand-region-abbrevs . 3)
+ (expand-region-abbrevs . 4)
  (comment-region . 1)
  (cider-apropos-select . 1)
+ (er/expand-region . 1)
 )

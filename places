@@ -1,22 +1,22 @@
 ;;; -*- coding: utf-8 -*-
-(("c:/Users/mbastian/AppData/Roaming/.emacs.d/init.el" . 3980)
+(("c:/dev/soda_fountain/judy/src/clj/uploader/core.clj" . 1286)
+ ("c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/editing.el" . 2426)
+ ("c:/dev/soda_fountain/soda-common/src/clj/soda/data/"
+  (dired-filename . "c:/dev/soda_fountain/soda-common/src/clj/soda/data/files.clj"))
+ ("c:/dev/soda_fountain/soda-common/project.clj" . 884)
+ ("c:/dev/soda_fountain/judy/project.clj" . 1961)
+ ("c:/dev/soda_fountain/soda-common/src/clj/soda/data/files.clj" . 740)
+ ("c:/dev/soda_fountain/judy/src/clj/judy/routes/"
+  (dired-filename . "c:/dev/soda_fountain/judy/src/clj/judy/routes/upload_services.clj"))
+ ("c:/dev/soda_fountain/judy/src/clj/judy/routes/upload_services.clj" . 1716)
+ ("c:/Users/mbastian/AppData/Roaming/.emacs.d/init.el" . 2245)
  ("c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/ui.el" . 504)
  ("c:/dev/soda_fountain/judy/src/clj/judy/routes/services.clj" . 1324)
  ("c:/dev/soda_fountain/soda-common/src/clj/soda/data.clj" . 1593)
- ("c:/dev/soda_fountain/judy/src/clj/judy/routes/upload_services.clj" . 1060)
- ("c:/dev/soda_fountain/judy/src/clj/judy/routes/"
-  (dired-filename . "c:/dev/soda_fountain/judy/src/clj/judy/routes/services.clj"))
  ("c:/dev/soda_fountain/judy/src/clj/judy/routes/clearwater_services.clj" . 3492)
  ("c:/dev/soda_fountain/soda-common/src/clj/soda/data/core.clj" . 644)
  ("c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/misc.el" . 466)
- ("c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/editing.el" . 2378)
  ("c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/setup-clojure.el" . 2353)
- ("c:/dev/soda_fountain/soda-common/project.clj" . 1326)
- ("c:/dev/soda_fountain/judy/project.clj" . 1961)
  ("c:/dev/soda_fountain/soda-common/src/clj/soda/data/raw.clj" . 1530)
- ("c:/dev/soda_fountain/soda-common/src/clj/soda/data/files.clj" . 1238)
- ("c:/dev/soda_fountain/judy/src/clj/uploader/core.clj" . 2849)
- ("c:/dev/soda_fountain/judy/target/classes/judy/routes/"
-  (dired-filename . "c:/dev/soda_fountain/judy/target/classes/judy/routes/home$fn__3842.class"))
  ("c:/dev/"
   (dired-filename . "c:/dev/Soda")))
