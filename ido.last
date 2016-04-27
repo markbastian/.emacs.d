@@ -2,6 +2,22 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/dev/soda_fountain/judy/src/clj/judy/" . "routes/")
+ ("c:/dev/soda_fountain/judy/src/clj/" . "judy/")
+ ("c:/dev/soda_fountain/judy/src/" . "clj/")
+ ("c:/dev/soda_fountain/judy/" . "src/")
+ ("c:/dev/soda_fountain/soda-common/src/clj/soda/" . "data/")
+ ("c:/dev/soda_fountain/soda-common/src/clj/" . "soda/")
+ ("c:/Users/mbastian/AppData/Roaming/.emacs.d/" . "customizations/")
+ ("c:/Users/mbastian/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/mbastian/AppData/" . "Roaming/")
+ ("c:/Users/mbastian/" . "AppData/")
+ ("c:/Users/" . "mbastian/")
+ ("c:/dev/soda_fountain/soda-common/src/" . "clj/")
+ ("c:/dev/soda_fountain/soda-common/" . "src/")
+ ("c:/dev/soda_fountain/" . "judy/")
+ ("c:/dev/" . "soda_fountain/")
+ ("c:/" . "dev/")
  ("/Users/" . "mbastian/")
  ("/Users/mbastian/.emacs.d/" . "customizations/")
  ("/Users/mbastian/" . "workspace/")
@@ -18,6 +34,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/dev/soda_fountain/judy/src/clj/judy/routes/"
+ "c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/"
+ "c:/Users/mbastian/AppData/Roaming/.emacs.d/"
+ "c:/dev/soda_fountain/soda-common/src/clj/soda/data/"
+ "c:/dev/soda_fountain/soda-common/src/clj/soda/"
+ "c:/dev/soda_fountain/judy/"
+ "c:/dev/soda_fountain/soda-common/"
  "/Users/mbastian/workspace/numerics/src/cljc/numerics/"
  "/Users/mbastian/.emacs.d/customizations/"
  "/Users/mbastian/.emacs.d/"
@@ -29,20 +52,62 @@
 
 ;; ----- ido-work-file-list -----
 (
- "linalg.cljc"
- "setup-clojure.el"
- "init.el"
- "misc.el"
- "editing.el"
- "elisp-editing.el"
+ "services.clj"
  "ui.el"
- "navigation.el"
- "shell-integration.el"
+ "setup-clojure.el"
+ "editing.el"
+ "misc.el"
+ "init.el"
+ "clearwater_services.clj"
+ "core.clj"
+ "data.clj"
  "project.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/dev/soda_fountain/judy/src/clj/judy/routes/" (22304 59572 0 0) "upload_services.clj" "services.clj" "prospectus_api.clj" "overmind_services.clj" "home.clj" "debug_services.clj" "datascrape_services.clj" "clearwater_services.clj" "../" "./")
+
+ ("c:/Users/mbastian/AppData/Roaming/.emacs.d/" (22304 58511 0 0) "themes/" "README.md" "projectile.cache" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "games/" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" ".emacs.desktop" "../" "./")
+
+ ("c:/Users/mbastian/" (22304 51096 0 0) "workspace/" "weka.log" "Videos/" "tmp/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "order-42332528.license" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{db9b4b18-cdea-11e5-bd4c-a290f7878ff4}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{db9b4b18-cdea-11e5-bd4c-a290f7878ff4}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{db9b4b18-cdea-11e5-bd4c-a290f7878ff4}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "mercurial.ini" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Intel/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "3D Objects/" ".viminfo" ".ssh/" ".pdfbox.cache" ".p2/" ".oracle_jre_usage/" ".netbeans-derby/" ".nbprofiler/" ".nbi/" ".mms/" ".m2/" ".lobo/" ".lein/" ".kdiff3rc" ".IntelliJIdea15/" ".IntelliJIdea14/" ".gitconfig" ".gem/" ".eclipse/" ".baboon/" ".android/" "../" "./")
+
+ ("c:/dev/soda_fountain/soda-common/src/clj/soda/data/" (22304 52364 0 0) "raw.clj" "normalized.clj" "files.clj" "core.clj" "aggregated.clj" "../" "./")
+
+ ("c:/dev/soda_fountain/soda-common/src/clj/soda/" (22304 58702 0 0) "data.clj" "data/" "../" "./")
+
+ ("c:/dev/soda_fountain/soda-common/" (22304 56827 0 0) "test/" "target/" "structured_reference_documents/" "src/" "soda-common.iml" "resources/" "replay_pid16512.log" "README.md" "project.clj" "profiles.clj" "pom.xml" "LICENSE" "hs_err_pid16512.log" "hs_err_pid15340.log" "gnmad.txt" "foo.tip" "foo.log" "factors/" "doc/" "di160315.zip" "di160315/" "dev-resources/" "97500720.txt" "97500720.pdf" "86700122.pdf" "5.txt" ".svn/" ".nrepl-port" ".lein-failures" ".lein-env" "../" "./")
+
+ ("c:/dev/soda_fountain/judy/" (22304 51857 0 0) "uploads/" "test/" "target/" "src/" "resources/" "replay_pid17180.log" "replay_pid1716.log" "README.md" "project.clj" "profiles.clj" "Procfile" "pom.xml" "normalized.json" "judy.log.001" "judy.log" "judy.iml" "hs_err_pid17180.log" "hs_err_pid1716.log" "figwheel_server.log" "externs.js" "env/" "dev-resources/" "dec2015.txt" "clojure.xml" "97500720.pdf" "86700122.pdf" "2016-02-data.zip" ".svn/" ".nrepl-port" ".lein-env" ".idea/" "../" "./")
+
+ ("c:/bin/" (22304 51114 0 0) "visualvm_138/" "tabula-1.0.1/" "solr-6.0.0.zip" "solr-6.0.0/" "solr-5.4.0/" "nightcode/" "LightTable-old/" "LightTable/" "GetGnuWin32/" "emacs-24.5/" "elasticsearch-1.7.2/" "eclipse/" "apache-tomcat-7.0.62/" "apache-maven-3.3.1/" "../" "./")
+
+ ("c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/" (22304 48478 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("c:/Users/mbastian/AppData/Roaming/" (22265 15152 0 0) "WebEx Connect/" "VisualVM/" "TortoiseSVN/" "Tabula/" "Sun/" "Subversion/" "Spark/" "NuGet/" "npm-cache/" "npm/" "Notepad++/" "NetBeans/" "Mozilla/" "Microsoft/" "Macromedia/" "LightTable/" "JetBrains/" "java/" "JabberWerxCPP/" "Intel Corporation/" "Identities/" "Highlight/" "Greenshot/" "gnupg/" "GitKraken/" "Devart/" "Cisco/" "andre-simon.de/" "Adobe/" ".kde/" ".gitkraken/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/mbastian/AppData/" (22199 50888 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/" (22199 51109 0 0) "Public/" "mbastian/" "hercules/" "desktop.ini" "DefaultAppPool/" "Default.migrated/" "Default User/" "Default/" "cerberus/" "ares/" "All Users/" "Administrator.PC/" "Administrator/" "../" "./")
+
+ ("c:/dev/soda_fountain/judy/src/" (22197 3752 0 0) "main/" "cljs/" "cljc/" "clj/" "../" "./")
+
+ ("c:/dev/soda_fountain/judy/src/clj/" (22278 46426 0 0) "uploader/" "judy/" "common/" "../" "./")
+
+ ("c:/dev/soda_fountain/judy/src/clj/judy/" (22283 50704 0 0) "util/" "routes/" "middleware.clj" "layout.clj" "handler.clj" "db/" "core.clj" "../" "./")
+
+ ("c:/dev/soda_fountain/soda-common/src/clj/" (22278 39615 0 0) "util/" "soda_common/" "soda/" "parsers/" "normalizers/" "datasources/" "aggregate/" "../" "./")
+
+ ("c:/dev/soda_fountain/soda-common/src/" (22197 3597 0 0) "cljs/" "cljc/" "clj/" "../" "./")
+
+ ("c:/dev/soda_fountain/" (22303 39998 0 0) "soda-jerk-ws/" "soda-common/" "pdf-transforms/" "overmind-feedback/" "overmind/" "judy/" "gnma_mbs.clj" "frak/" "deepwater/" "../" "./")
+
+ ("c:/dev/" (22303 53260 0 0) "tmp/" "soda_fountain/" "Soda/" "scratch/" "plutus/" "old/" "jtds-1.3.1-dist/" "cljutil/" "clj-tomcat/" "../" "./")
+
+ ("c:/bin/emacs-24.5/" (22123 10162 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/bin/emacs-24.5/bin/" (22265 16017 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+
  ("/Users/mbastian/workspace/numerics/" (22304 18731 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "pom.xml" "numerics.iml" "LICENSE" "doc/" "dev-resources/" ".lein-failures" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/mbastian/.emacs.d/customizations/" (22304 18196 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")

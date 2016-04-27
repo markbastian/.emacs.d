@@ -1,26 +1,26 @@
 
 ;; ----- smex-history -----
 (
- cider-run
+ cljr-rename-symbol
+ clj-refactor-mode
  projectile-find-dir
- cljr-add-missing-libspec
- cider-jack-in
- eldoc-mode
- cider-browse-ns
- cider-browse-ns-all
+ projectile-find-file
+ cider-apropos-select
+ comment-region
+ expand-region-abbrevs
 )
 
 ;; ----- smex-data -----
 (
- (cider-jack-in . 23)
+ (cider-jack-in . 25)
  (package-install . 6)
  (package-list-packages . 7)
  (package-refresh-contents . 1)
  (paredit-mode . 4)
  (projectile-global-mode . 2)
- (projectile-find-file . 1)
- (projectile-find-dir . 4)
- (rgrep . 3)
+ (projectile-find-file . 10)
+ (projectile-find-dir . 8)
+ (rgrep . 10)
  (auto-composition-mode . 2)
  (cider-mode . 7)
  (cider-apropos . 1)
@@ -36,4 +36,12 @@
  (eldoc-mode . 3)
  (cljr-add-missing-libspec . 2)
  (cider-run . 1)
+ (column-number-mode . 1)
+ (find-file . 1)
+ (new-frame . 1)
+ (clj-refactor-mode . 4)
+ (cljr-rename-symbol . 3)
+ (expand-region-abbrevs . 3)
+ (comment-region . 1)
+ (cider-apropos-select . 1)
 )

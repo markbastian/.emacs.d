@@ -1,0 +1,41 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Apr 27 07:47:37 2016
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22304 49913 844000 0) (desktop . "206") "mbastian@VIREO" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-16-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#eaeaea") (background-color . "#000000") (mouse-color . "black") (border-color . "#2a2a2a") (screen-gamma) (line-spacing) (left-fringe . 10) (right-fringe . 10) (alpha) (menu-bar-lines . 0) (tool-bar-lines . 2) (title) (fullscreen . maximized) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#d54e53") (environment) (frameset--id . "5E04-F8AC-DDD3-9632") (frameset--mini t . t) (height . 56) (width . 190) (modeline . t) (minibuffer . t) (unsplittable) (left + -8) (top + -8) (icon-name) (visibility . t) (display . "w32") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 100) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 18) (min-pixel-width-safe . 20)) leaf (pixel-width . 1920) (pixel-height . 963) (total-width . 192) (total-height . 53) (normal-height . 1.0) (normal-width . 1.0) (buffer "ui.el" (selected . t) (hscroll . 0) (fringes 10 10 nil) (margins 2) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 346) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/ui.el" "c:/dev/soda_fountain/judy/project.clj" "~/.emacs.d/ido.last" "~/.emacs.d/customizations/ui.el" "c:/dev/soda_fountain/judy/src/clj/judy/routes/upload_services.clj" "c:/dev/soda_fountain/judy/project.clj" "c:/dev/soda_fountain/soda-common/project.clj"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/ui.el"
+  "ui.el"
+  'emacs-lisp-mode
+  '(projectile-mode linum-mode which-key-mode company-mode rainbow-delimiters-mode eldoc-mode paredit-mode)
+  346
+  '(400 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-dos)))
+
+(desktop-create-buffer 206
+  "c:/dev/soda_fountain/judy/project.clj"
+  "project.clj"
+  'clojure-mode
+  '(projectile-mode linum-mode which-key-mode company-mode yas-minor-mode rainbow-delimiters-mode paredit-mode clj-refactor-mode subword-mode)
+  2297
+  '(2074 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
