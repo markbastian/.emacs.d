@@ -1,0 +1,80 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/" . "mbastian/")
+ ("/Users/mbastian/.emacs.d/" . "customizations/")
+ ("/Users/mbastian/" . "workspace/")
+ ("/Users/mbastian/workspace/numerics/src/cljc/" . "numerics/")
+ ("/Users/mbastian/workspace/numerics/src/" . "cljc/")
+ ("/Users/mbastian/workspace/numerics/" . "src/")
+ ("/Users/mbastian/workspace/astro/src/" . "cljc/")
+ ("/Users/mbastian/workspace/astro/" . "src/")
+ ("/Users/mbastian/workspace/astro/src/cljc/" . "astro/")
+ ("/Users/mbastian/workspace/" . "numerics/")
+ ("/Users/mbastian/workspace/lazy/src/" . "lazy/")
+ ("/Users/mbastian/workspace/lazy/" . "src/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/mbastian/workspace/numerics/src/cljc/numerics/"
+ "/Users/mbastian/.emacs.d/customizations/"
+ "/Users/mbastian/.emacs.d/"
+ "/Users/mbastian/workspace/numerics/"
+ "/Users/mbastian/workspace/astro/"
+ "/Users/mbastian/workspace/astro/src/cljc/astro/"
+ "/Users/mbastian/workspace/lazy/src/lazy/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "linalg.cljc"
+ "setup-clojure.el"
+ "init.el"
+ "misc.el"
+ "editing.el"
+ "elisp-editing.el"
+ "ui.el"
+ "navigation.el"
+ "shell-integration.el"
+ "project.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/mbastian/workspace/numerics/" (22304 18731 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "pom.xml" "numerics.iml" "LICENSE" "doc/" "dev-resources/" ".lein-failures" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/mbastian/.emacs.d/customizations/" (22304 18196 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("/Users/mbastian/.emacs.d/" (22304 18683 0 0) "themes/" "README.md" "projectile.cache" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "games/" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".DS_Store" "../" "./")
+
+ ("/Users/" (22148 18283 0 0) "Shared/" "mbastian/" "chloe/" ".localized" "../" "./")
+
+ ("/Users/mbastian/workspace/numerics/src/cljc/numerics/" (22304 14606 0 0) "tableaus.cljc" "runge_kutta.cljc" "roots.cljc" "polynomials.cljc" "mmult.cljc" "madd.cljc" "linalg.cljc" "../" "./")
+
+ ("/Users/mbastian/" (22299 35939 0 0) "www/" "workspace/" "Windows7Professional.dmg" "VirtualBox VMs/" "tmp/" "spark.html" "Public/" "Pictures/" "NetBeansProjects/" "Music/" "Movies/" "Library/" "foo/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications/" ".zshrc" ".wine/" ".viminfo" ".Trash/" ".tnsrc" ".subversion/" ".ssh/" ".scala_history" ".sbt/" ".plugman/" ".particle/" ".p2/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".m2/" ".local/" ".lein/" ".jssc/" ".ivy2/" ".IntelliJIdea15/" ".IntelliJIdea14/" ".idlerc/" ".IdeaIC14/" ".idea-build/" ".homebrew_analytics_user_uuid" ".hgignore_global" ".heroku/" ".gradle/" ".gitignore_global" ".gitconfig" ".ghc/" ".emacs.d/" ".eclipse/" ".DS_Store" ".cups/" ".cordova/" ".config/" ".CFUserTextEncoding" ".cache/" ".cabal/" ".boot2docker/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
+
+ ("/Users/mbastian/workspace/numerics/src/cljc/" (22136 55613 0 0) "vecmath/" "numerics/" ".DS_Store" "../" "./")
+
+ ("/Users/mbastian/workspace/numerics/src/" (21894 15223 0 0) "cljs/" "cljc/" "clj/" ".DS_Store" "../" "./")
+
+ ("/Users/mbastian/workspace/astro/" (22297 35106 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "dev-resources/" "astro.iml" ".nrepl-port" ".lein-failures" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/mbastian/workspace/astro/src/cljc/astro/" (22175 11867 0 0) "universal_variable.cljc" "tof.cljc" "time.cljc" "quil.cljc" "kepler.cljc" "core.cljc" "coords_and_time.cljc" "constants.cljc" "../" "./")
+
+ ("/Users/mbastian/workspace/astro/src/cljc/" (22136 55298 0 0) "astro/" ".DS_Store" "../" "./")
+
+ ("/Users/mbastian/workspace/astro/src/" (21894 15223 0 0) "cljs/" "cljc/" "clj/" ".DS_Store" "../" "./")
+
+ ("/Users/mbastian/workspace/lazy/" (22295 1758 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "lazy.iml" "doc/" "CHANGELOG.md" ".idea/" ".hgignore" ".gitignore" "../" "./")
+
+ ("/Users/mbastian/workspace/lazy/src/lazy/" (22295 1231 0 0) "core.clj" "../" "./")
+
+ ("/Users/mbastian/workspace/lazy/src/" (22294 60426 0 0) "lazy/" "../" "./")
+
+ ("/Users/mbastian/workspace/" (22295 680 0 0) "war/" "votesim/" "vecmath/" "values-in-the-small/" "tetris/" "talk-tdvbu/" "talk-stateless-code/" "talk-good-bad-ugly/" "swag/" "sudoku/" "snake/" "scalastuff/" "robowars/" "reveal.js/" "reagentexample/" "racing/" "procedurals/" "planning/" "pirates/" "petmaker/" "penguins/" "OSCON/" "oop/" "objects/" "numerics/" "nlp/" "MyApp/" "my-stuff/" "my-luminus/" "mortgage-calculator/" "ml/" "missile-command/" "misc-clojure/" "mazegen/" "math/" "matasano/" "markbastian.github.io/" "luminus-tuts/" "lazy.zip" "lazy/" "lander/" "l-systems/" "jpirates/" "jlander/" "jinterop/" "jflocking/" "javatests/" "interop/" "homoiconic-java/" "hex/" "hello-figwheel/" "hello/" "guessinggame/" "gbu-scala/" "frobworld/" "flocking-conj/" "flocking/" "flappy-bird-demo/" "exercises/" "dog-vs-duck/" "crazyflie-lib/" "crazyflie-clients-python/" "conway/" "cmx.js/" "cmx/" "clj-reagent/" "clj-practice/" "clj-nurbs/" "class-diagrams/" "bgg/" "awesome-clojure/" "astro/" "ard/" ".metadata/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
