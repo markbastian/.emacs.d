@@ -142,3 +142,5 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+
+(global-set-key (kbd "RET") 'newline-and-indent)
