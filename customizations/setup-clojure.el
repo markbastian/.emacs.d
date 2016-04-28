@@ -52,7 +52,7 @@
 ;; Use clojure mode for other extensions
 (add-to-list 'auto-mode-alist '("\\.edn$" . clojure-mode))
 (add-to-list 'auto-mode-alist '("\\.boot$" . clojure-mode))
-(add-to-list 'auto-mode-alist '("\\.cljs.*$" . clojure-mode))
+(add-to-list 'auto-mode-alist '("\\.cljs.*$" . clojurescript-mode))
 (add-to-list 'auto-mode-alist '("lein-env" . enh-ruby-mode))
 
 
@@ -91,3 +91,8 @@
     (cljr-add-keybindings-with-prefix "C-c C-m"))
 
 (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+;;needed?
+;;(add-hook 'clojurescript-mode-hook #'my-clojure-mode-hook)
+
+;; https://cider.readthedocs.io/en/latest/up_and_running/
+(setq cider-cljs-lein-repl "(do (use 'figwheel-sidecar.repl-api) (start-figwheel!) (cljs-repl))")
