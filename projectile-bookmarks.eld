@@ -1,1 +1,1 @@
-("c:/dev/soda_fountain/judy/" "~/.emacs.d/" "c:/dev/soda_fountain/soda-common/" "~/workspace/numerics/" "~/workspace/astro/" "~/workspace/lazy/" "~/workspace/misc-clojure/")
+("~/.emacs.d/" "~/workspace/astro/" "~/workspace/numerics/" "c:/dev/soda_fountain/judy/" "c:/dev/soda_fountain/soda-common/" "~/workspace/lazy/" "~/workspace/misc-clojure/")
