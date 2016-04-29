@@ -30,12 +30,6 @@
 (when (fboundp 'tool-bar-mode)
   (tool-bar-mode -1))
 
-;; increase font size for better readability
-(set-face-attribute 'default nil :height 110)
-
-;; set font to something not ugly
-(set-face-attribute 'default nil :font "Consolas" )
-
 ;; Start in full screen. If you prefer maximized, comment fullscreen and uncomment maximized
-(toggle-frame-fullscreen)
-;;(toggle-frame-maximized)
+;;(toggle-frame-fullscreen)
+(toggle-frame-maximized)
