@@ -1,1 +1,0 @@
-("~/.emacs.d/" "~/workspace/astro/" "~/workspace/numerics/" "c:/dev/soda_fountain/judy/" "c:/dev/soda_fountain/soda-common/" "~/workspace/lazy/" "~/workspace/misc-clojure/")
