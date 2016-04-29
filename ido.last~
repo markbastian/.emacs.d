@@ -27,16 +27,13 @@
  ("/Users/mbastian/workspace/astro/src/" . "cljc/")
  ("/Users/mbastian/workspace/astro/" . "src/")
  ("/Users/mbastian/workspace/astro/src/cljc/" . "astro/")
- ("/Users/mbastian/workspace/" . "astro/")
+ ("/Users/mbastian/workspace/" . "numerics/")
  ("/Users/mbastian/workspace/lazy/src/" . "lazy/")
  ("/Users/mbastian/workspace/lazy/" . "src/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/mbastian/workspace/numerics/"
- "/Users/mbastian/workspace/astro/"
- "/Users/mbastian/workspace/numerics/src/cljc/numerics/"
  "c:/Users/mbastian/AppData/Roaming/.emacs.d/customizations/"
  "c:/dev/soda_fountain/judy/src/clj/uploader/"
  "c:/Users/mbastian/AppData/Roaming/.emacs.d/"
@@ -45,35 +42,32 @@
  "c:/dev/soda_fountain/judy/src/clj/judy/routes/"
  "c:/dev/soda_fountain/soda-common/src/clj/soda/data/"
  "c:/dev/soda_fountain/soda-common/src/clj/soda/"
+ "/Users/mbastian/workspace/numerics/src/cljc/numerics/"
  "/Users/mbastian/.emacs.d/customizations/"
  "/Users/mbastian/.emacs.d/"
+ "/Users/mbastian/workspace/numerics/"
+ "/Users/mbastian/workspace/astro/"
  "/Users/mbastian/workspace/astro/src/cljc/astro/"
  "/Users/mbastian/workspace/lazy/src/lazy/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "project.clj"
- "linalg.cljc"
- "editing.el"
- "core.clj"
- "init.el"
  "ui.el"
+ "core.clj"
+ "editing.el"
+ "init.el"
+ "project.clj"
  "services.clj"
  "setup-clojure.el"
  "misc.el"
  "clearwater_services.clj"
+ "data.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/mbastian/workspace/astro/" (22297 37767 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "dev-resources/" "astro.iml" ".nrepl-port" ".lein-failures" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/mbastian/workspace/numerics/" (22304 19345 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "pom.xml" "numerics.iml" "LICENSE" "doc/" "dev-resources/" ".lein-failures" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/mbastian/" (22305 33115 0 0) "www/" "workspace/" "Windows7Professional.dmg" "VirtualBox VMs/" "tmp/" "spark.html" "Public/" "Pictures/" "NetBeansProjects/" "Music/" "Movies/" "Library/" "foo/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications/" ".zshrc" ".wine/" ".viminfo" ".Trash/" ".tnsrc" ".subversion/" ".ssh/" ".scala_history" ".sbt/" ".plugman/" ".particle/" ".p2/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".m2/" ".local/" ".lein/" ".jssc/" ".ivy2/" ".IntelliJIdea15/" ".IntelliJIdea14/" ".idlerc/" ".IdeaIC14/" ".idea-build/" ".homebrew_analytics_user_uuid" ".hgignore_global" ".heroku/" ".gradle/" ".gitignore_global" ".gitconfig" ".ghc/" ".emacs.d/" ".eclipse/" ".DS_Store" ".cups/" ".cordova/" ".config/" ".CFUserTextEncoding" ".cache/" ".cabal/" ".boot2docker/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
-
- ("c:/Users/mbastian/AppData/Roaming/.emacs.d/" (22305 13329 0 0) "themes/" "README.md" "projectile.cache" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "games/" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" ".emacs.desktop" "../" "./")
+ ("c:/Users/mbastian/AppData/Roaming/.emacs.d/" (22306 3244 0 0) "themes/" "README.md" "projectile.cache" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "games/" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" ".emacs.desktop" "../" "./")
 
  ("c:/Users/mbastian/" (22305 9312 0 0) "workspace/" "weka.log" "Videos/" "tmp/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "order-42332528.license" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{db9b4b18-cdea-11e5-bd4c-a290f7878ff4}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{db9b4b18-cdea-11e5-bd4c-a290f7878ff4}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{db9b4b18-cdea-11e5-bd4c-a290f7878ff4}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "mercurial.ini" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Intel/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "3D Objects/" ".viminfo" ".ssh/" ".pdfbox.cache" ".p2/" ".oracle_jre_usage/" ".netbeans-derby/" ".nbprofiler/" ".nbi/" ".mms/" ".m2/" ".lobo/" ".lein/" ".kdiff3rc" ".IntelliJIdea15/" ".IntelliJIdea14/" ".gitconfig" ".gem/" ".eclipse/" ".baboon/" ".android/" "../" "./")
 
@@ -117,6 +111,8 @@
 
  ("c:/bin/emacs-24.5/bin/" (22265 16017 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
 
+ ("/Users/mbastian/workspace/numerics/" (22304 18731 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "pom.xml" "numerics.iml" "LICENSE" "doc/" "dev-resources/" ".lein-failures" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
  ("/Users/mbastian/.emacs.d/customizations/" (22304 18196 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
 
  ("/Users/mbastian/.emacs.d/" (22304 18683 0 0) "themes/" "README.md" "projectile.cache" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "games/" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".DS_Store" "../" "./")
@@ -125,9 +121,13 @@
 
  ("/Users/mbastian/workspace/numerics/src/cljc/numerics/" (22304 14606 0 0) "tableaus.cljc" "runge_kutta.cljc" "roots.cljc" "polynomials.cljc" "mmult.cljc" "madd.cljc" "linalg.cljc" "../" "./")
 
+ ("/Users/mbastian/" (22299 35939 0 0) "www/" "workspace/" "Windows7Professional.dmg" "VirtualBox VMs/" "tmp/" "spark.html" "Public/" "Pictures/" "NetBeansProjects/" "Music/" "Movies/" "Library/" "foo/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications/" ".zshrc" ".wine/" ".viminfo" ".Trash/" ".tnsrc" ".subversion/" ".ssh/" ".scala_history" ".sbt/" ".plugman/" ".particle/" ".p2/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".m2/" ".local/" ".lein/" ".jssc/" ".ivy2/" ".IntelliJIdea15/" ".IntelliJIdea14/" ".idlerc/" ".IdeaIC14/" ".idea-build/" ".homebrew_analytics_user_uuid" ".hgignore_global" ".heroku/" ".gradle/" ".gitignore_global" ".gitconfig" ".ghc/" ".emacs.d/" ".eclipse/" ".DS_Store" ".cups/" ".cordova/" ".config/" ".CFUserTextEncoding" ".cache/" ".cabal/" ".boot2docker/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
+
  ("/Users/mbastian/workspace/numerics/src/cljc/" (22136 55613 0 0) "vecmath/" "numerics/" ".DS_Store" "../" "./")
 
  ("/Users/mbastian/workspace/numerics/src/" (21894 15223 0 0) "cljs/" "cljc/" "clj/" ".DS_Store" "../" "./")
+
+ ("/Users/mbastian/workspace/astro/" (22297 35106 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "dev-resources/" "astro.iml" ".nrepl-port" ".lein-failures" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/mbastian/workspace/astro/src/cljc/astro/" (22175 11867 0 0) "universal_variable.cljc" "tof.cljc" "time.cljc" "quil.cljc" "kepler.cljc" "core.cljc" "coords_and_time.cljc" "constants.cljc" "../" "./")
 
