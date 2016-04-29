@@ -1,9 +1,0 @@
-;;; -*- coding: utf-8 -*-
-(("/Users/mbastian/workspace/numerics/src/cljc/numerics/linalg.cljc" . 267)
- ("/Users/mbastian/workspace/numerics/project.clj" . 683)
- ("/Users/mbastian/workspace/astro/project.clj" . 544)
- ("/Users/mbastian/workspace/astro/src/cljc/astro/universal_variable.cljc" . 1893)
- ("/Users/mbastian/workspace/astro/src/cljc/astro/"
-  (dired-filename . "/Users/mbastian/workspace/astro/src/cljc/astro/tof.cljc"))
- ("/Users/mbastian/workspace/astro/src/cljc/astro/constants.cljc" . 307)
- ("/Users/mbastian/workspace/astro/src/cljc/astro/coords_and_time.cljc" . 781))
