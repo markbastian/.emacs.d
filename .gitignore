@@ -13,3 +13,5 @@ elpa
 games
 projectile-bookmarks.eld
 projectile.cache
+*~
+.emacs.desktop
