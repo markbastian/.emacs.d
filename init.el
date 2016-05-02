@@ -84,7 +84,11 @@
     neotree
     
     ;; Cool mode suggested by the cider guy
-    which-key))
+    which-key
+
+    ;; Refactor namespace declarations
+    ;; slamhound
+    ))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
