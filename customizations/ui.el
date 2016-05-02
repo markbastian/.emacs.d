@@ -78,3 +78,10 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; neotree stuff
+;;https://www.emacswiki.org/emacs/NeoTree
+(setq neo-smart-open t)
+(setq projectile-switch-project-action 'neotree-projectile-action)
+
+(global-set-key [f8] 'neotree-toggle)

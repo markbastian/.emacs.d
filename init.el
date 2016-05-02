@@ -79,6 +79,9 @@
     ;; smart expand regions
     ;; https://github.com/emacsmirror/expand-region
     expand-region
+
+    ;; https://github.com/jaypei/emacs-neotree
+    neotree
     
     ;; Cool mode suggested by the cider guy
     which-key))
@@ -146,3 +149,4 @@
 (load "setup-clojure.el")
 
 (global-set-key (kbd "RET") 'newline-and-indent)
+
