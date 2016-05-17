@@ -86,7 +86,9 @@
     ;; Cool mode suggested by the cider guy
     which-key
 
-    ;; Refactor namespace declarations
+    ;; Refactor namespace declarations. Doesn't work. See:
+    ;;https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md
+    ;; Problem is due to nrepl-send-string -> nrepl-request:eval
     ;; slamhound
     ))
 
@@ -154,3 +156,30 @@
 
 (global-set-key (kbd "RET") 'newline-and-indent)
 
+(if (and (eq system-type 'windows-nt)
+  (require 'cygwin-mount nil t))
+(progn
+  (setenv "PATH" (concat "c:/cygwin/bin;" (getenv "PATH")))
+  (setq exec-path (cons "c:/cygwin/bin/" exec-path))
+  (require 'setup-cygwin)
+  (setq find-program "c:/cygwin/bin/find.exe")
+  (setq grep-program "c:/cygwin/bin/grep.exe")))
+
+;; (setq find-program "c:/cygwin/bin/find.exe")
+;; (setq grep-program "c:/cygwin/bin/grep.exe")
+
+(setq grep-find-template " c:/cygwin/bin/find . <X> -type f <F> -exec /usr/bin/grep <C> --regexp=<R> --with-filename --line-number --color=always {} +")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("10a2ded436ef291e2825d178f3a25c40cc0bce6322949bb123981e7e301db5f5" "030bed79e98026124afd4ef8038ba7fe064314baf18b58759a5c92b91ec872fb" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
