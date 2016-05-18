@@ -154,3 +154,12 @@
 
 (global-set-key (kbd "RET") 'newline-and-indent)
 
+(defun highlight-dump ()
+  "Dump the current buffer to a highlighted clipboard"
+  (interactive)
+  (shell-command (concat
+                   "highlight -O rtf "
+                   buffer-file-name
+                   " --syntax clojure --style zellner --line-numbers | pbcopy")))
+
+(global-set-key (kbd "C-c f") 'highlight-dump)
