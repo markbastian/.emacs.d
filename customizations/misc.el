@@ -20,16 +20,16 @@
 
 ;; Stuff from Kelly
 ;; Turn off line wrapping
-(set-default 'truncate-lines t)
+;; (set-default 'truncate-lines t)
 
 ;; Change wheel scroll amount and make it smooth
-(setq mouse-wheel-scroll-amount '(1 ((shift) . 1) ((control) . nil)))
-(setq mouse-wheel-progressive-speed nil)
+;; (setq mouse-wheel-scroll-amount '(1 ((shift) . 1) ((control) . nil)))
+;; (setq mouse-wheel-progressive-speed nil)
 
 ;; Remove ugly graphical toolbar
 (when (fboundp 'tool-bar-mode)
   (tool-bar-mode -1))
 
 ;; Start in full screen. If you prefer maximized, comment fullscreen and uncomment maximized
-;;(toggle-frame-fullscreen)
-(toggle-frame-maximized)
+(toggle-frame-fullscreen)
+;; (toggle-frame-maximized)

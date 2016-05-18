@@ -82,11 +82,13 @@
 
     ;; https://github.com/jaypei/emacs-neotree
     neotree
-    
+
     ;; Cool mode suggested by the cider guy
     which-key
 
-    ;; Refactor namespace declarations
+    ;; Refactor namespace declarations. Doesn't work. See:
+    ;;https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md
+    ;; Problem is due to nrepl-send-string -> nrepl-request:eval
     ;; slamhound
     ))
 
@@ -114,7 +116,7 @@
 ;;
 ;; (require 'yaml-mode)
 ;; (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
-;; 
+;;
 ;; Adding this code will make Emacs enter yaml mode whenever you open
 ;; a .yml file
 (add-to-list 'load-path "~/.emacs.d/vendor")
@@ -163,3 +165,17 @@
                    " --syntax clojure --style zellner --line-numbers | pbcopy")))
 
 (global-set-key (kbd "C-c f") 'highlight-dump)
+
+(if (and (eq system-type 'windows-nt)
+  (require 'cygwin-mount nil t))
+(progn
+  (setenv "PATH" (concat "c:/cygwin/bin;" (getenv "PATH")))
+  (setq exec-path (cons "c:/cygwin/bin/" exec-path))
+  (require 'setup-cygwin)
+  (setq find-program "c:/cygwin/bin/find.exe")
+  (setq grep-program "c:/cygwin/bin/grep.exe")))
+
+;; (setq find-program "c:/cygwin/bin/find.exe")
+;; (setq grep-program "c:/cygwin/bin/grep.exe")
+
+;;(setq grep-find-template " c:/cygwin/bin/find . <X> -type f <F> -exec /usr/bin/grep <C> --regexp=<R> --with-filename --line-number --color=always {} +")
