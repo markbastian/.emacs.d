@@ -18,6 +18,9 @@
 (global-company-mode)
 (company-flx-mode)
 
+;;Speedup company mode popups
+(setq company-idle-delay 0)
+
 ;; Stuff from Kelly
 ;; Turn off line wrapping
 ;; (set-default 'truncate-lines t)
