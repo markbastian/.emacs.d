@@ -23,11 +23,7 @@
 ;;   (tool-bar-mode -1))
 
 ;; Don't show native OS scroll bars for buffers because they're redundant
-;<<<<<<< HEAD
 ;(when (fboundp 'scroll-bar-mode)  (scroll-bar-mode -1))
-;=======
-;;(when (fboundp 'scroll-bar-mode)(scroll-bar-mode -1))
-;>>>>>>> 00ff3dfcca64a2f70fc092d81f3198ea91d86ebf
 
 ;; Color Themes
 ;; Read http://batsov.com/articles/2012/02/19/color-theming-in-emacs-reloaded/

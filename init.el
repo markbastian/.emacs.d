@@ -86,6 +86,8 @@
     ;; Cool mode suggested by the cider guy
     which-key
 
+    helm-projectile
+    
     ;; Refactor namespace declarations. Doesn't work. See:
     ;;https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md
     ;; Problem is due to nrepl-send-string -> nrepl-request:eval

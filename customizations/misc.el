@@ -19,7 +19,7 @@
 (company-flx-mode)
 
 ;;Speedup company mode popups
-(setq company-idle-delay 0)
+(setq company-idle-delay 0.1)
 
 ;; Stuff from Kelly
 ;; Turn off line wrapping
